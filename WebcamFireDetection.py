@@ -4,8 +4,8 @@ import time
 
 # Initialize Inference Client
 CLIENT = InferenceHTTPClient(
-    api_url="https://detect.roboflow.com",
-    api_key="DHpVOReN2oujyTpBbtz8"
+    api_url=" ",
+    api_key=" "
 )
 
 # Open webcam
@@ -83,3 +83,4 @@ while True:
 # Release resources
 cap.release()
 cv2.destroyAllWindows()
+
