@@ -77,16 +77,6 @@ Detection Output:
 ├── BlockDiagram.png
 └── README.md
 
-# 🛠️ Installation
-Clone the repository:
-    git clone https://github.com/your-username/your-repo-name.git
-Install dependencies:
-    pip install torch torchvision opencv-python firebase-admin ultralytics
-Upload Arduino code to ESP32 using Arduino IDE.
-    Configure Firebase Realtime Database and update credentials.
-Run detection:
-    python obotAutomation.py, IPCameraFireDetection.py
-
 # 🎯 Applications
   -Industrial fire safety systems
   -Warehouse monitoring
