@@ -68,7 +68,7 @@ Detection Output:
 	
   -4 DC Motors (4WD chassis)
 	
- - Relay Module
+  -Relay Module
 	
   -Water Pump
 	
