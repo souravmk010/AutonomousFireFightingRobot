@@ -2,7 +2,7 @@
 An AI-powered four-wheel drive (4WD) firefighting robot capable of detecting and extinguishing fire in real-time using a YOLO-based deep learning model, IP camera vision, Firebase cloud integration, and a Kodular-built Android remote control application.
 
 # 📌 Overview
-This project integrates Robotics + IoT + Cloud + Computer Vision to build an intelligent fire response system.\\
+This project integrates Robotics + IoT + Cloud + Computer Vision to build an intelligent fire response system.
 The robot can:
   -Detect fire using a trained deep learning model
   -Stream live video via IP camera
