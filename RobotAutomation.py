@@ -5,16 +5,16 @@ import pyrebase
 
 # Initialize Inference Client
 CLIENT = InferenceHTTPClient(
-    api_url="https://detect.roboflow.com",
-    api_key="DHpVOReN2oujyTpBbtz8"
+    api_url=" ",
+    api_key=""
 )
 
 # Firebase Configuration
 firebaseConfig = {
-    "apiKey": "AIzaSyB9xtt75npL-6n_pvQ3yGXM4aZTYWpp0No",
-    "authDomain": "agrobot-61736.firebaseapp.com",
-    "databaseURL": "https://agrobot-61736-default-rtdb.firebaseio.com/",
-    "storageBucket": "agrobot-61736.appspot.com"
+    "apiKey": " ",
+    "authDomain": " ",
+    "databaseURL": " ",
+    "storageBucket": " "
 }
 
 # Initialize Firebase
@@ -22,7 +22,7 @@ firebase = pyrebase.initialize_app(firebaseConfig)
 db = firebase.database()
 
 # RTSP URL of the IP Camera
-rtsp_url = "rtsp://testing:123456@192.168.1.14:554/stream2"
+rtsp_url = " "
 
 # Open IP camera stream using RTSP URL
 cap = cv2.VideoCapture(rtsp_url)
@@ -108,3 +108,4 @@ while True:
 # Release resources
 cap.release()
 cv2.destroyAllWindows()
+
