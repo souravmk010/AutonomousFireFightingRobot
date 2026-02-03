@@ -3,14 +3,14 @@
 #include "addons/TokenHelper.h"
 #include "addons/RTDBHelper.h"
 
-#define WIFI_SSID "tester"
-#define WIFI_PASSWORD "12345678"
+#define WIFI_SSID " "
+#define WIFI_PASSWORD " "
 
-#define API_KEY "AIzaSyAkDHhaqQsfGsW-byRXsikrq6YXMahBo5w"
-#define DATABASE_URL "https://firebot-75055-default-rtdb.firebaseio.com/"
+#define API_KEY " "
+#define DATABASE_URL " "
 
-#define USER_EMAIL "kitreksu@gmail.com"
-#define USER_PASSWORD "asd123*"
+#define USER_EMAIL " "
+#define USER_PASSWORD " "
 
 FirebaseData fbdo;
 FirebaseAuth auth;
