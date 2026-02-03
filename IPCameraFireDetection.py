@@ -4,12 +4,12 @@ import time
 
 # Initialize Inference Client
 CLIENT = InferenceHTTPClient(
-    api_url="https://detect.roboflow.com",
-    api_key="DHpVOReN2oujyTpBbtz8"
+    api_url=" ",
+    api_key=" "
 )
 
 # RTSP URL of the IP Camera
-rtsp_url = "rtsp://testing:123456@192.168.1.14:554/stream2"
+rtsp_url = " "
 
 # Open IP camera stream using RTSP URL
 cap = cv2.VideoCapture(rtsp_url)
@@ -85,3 +85,4 @@ while True:
 # Release resources
 cap.release()
 cv2.destroyAllWindows()
+
