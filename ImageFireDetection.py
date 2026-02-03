@@ -4,8 +4,8 @@ import numpy as np
 
 # Initialize Inference Client
 CLIENT = InferenceHTTPClient(
-    api_url="https://detect.roboflow.com",
-    api_key="DHpVOReN2oujyTpBbtz8"
+    api_url=" ",
+    api_key=" "
 )
 
 image_path = "2.jpg"
@@ -58,3 +58,4 @@ cv2.destroyAllWindows()
 
 # Print the fire count in the terminal
 print(f"Total Firespot detected: {firespot_count}")
+
